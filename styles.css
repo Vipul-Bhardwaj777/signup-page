@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --lite-green:#1ed760;
+}
+
+body{
+    font-family: 'lato', sans-serif;
+
+}
+
+.box{
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to top left,rgb(66, 165, 231),#ffffffaa);
+}
+
+.inner-box{
+    width: 35dvw;
+    border: 1px solid black;
+    padding:1rem 2rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: none;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #212121;
+    margin: 1rem 0;
+}
+
+main p{
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+main p small{
+    font-weight: lighter;
+    text-decoration: underline;
+    color: var(--lite-green);
+}
+
+main input{
+    display: block;
+    width: 30dvw;
+    padding: .7rem;
+    font-family: inherit;
+    font-size: inherit;
+    margin-top: .5rem;
+    border-radius: 8px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+
+main input[type="submit"]{
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: larger;
+    width: 10dvw;
+    border-radius: 20px;
+    background-color: var(--lite-green);
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+
+main input[type="submit"]:hover{
+    background-color: #18b14e;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    color: var(--lite-green);
+}
+
+
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background:linear-gradient(to top right, #ffffff33,#ffffffff);
+    position: absolute;
+}
+
+.c1{
+    top: 100px;
+    left:20px;
+}
+
+.c2{
+    bottom:100px;
+    right:20px
+}
